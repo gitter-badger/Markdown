@@ -18,7 +18,7 @@
 あるいは行頭にスペース4つ
 
 ---
-\`\`\`のあとに言語を書くことで、syntaxhighlightされる
+\`\`\`のあとに言語を書くことで、syntax highlightされる
 
     ```python
     class Hoge(object):
@@ -51,9 +51,46 @@ class Hoge(object):
 \>>ネスト
 
 ---
-
 - 箇条書き
 
 \- 箇条書き(-のあとにスペース)
 
 ---
+テーブル
+
+|a table|b table|c table|
+|---|---|---|
+|a1|b1|c1|
+|a2|b2|c2|
+|a3|b3|c3|
+
+/|a table   |b table    |c table    |  
+|---        |---        |---        |  
+|a1         |b1         |c1         |  
+|a2         |b2         |c2         |  
+|a3         |b3         |c3         |
+
+|a table|b table|c table|
+|:---   |:---:  |---:   |
+|a1     |b1     |c1     |
+|a2     |b2     |c2     |
+|a3     |b3     |c3     |
+
+/|a table|b table|c table|  
+|:---   |:---:  |---:   |  
+|a1     |b1     |c1     |  
+|a2     |b2     |c2     |  
+|a3     |b3     |c3     |  
+コロンを付けることによって寄らせることができる
+
+---
+
+リンク
+
+[Markdown](https://github.com/shotahirama/Markdown)  
+\[Markdown](https://github.com/shotahirama/Markdown)
+
+[Markdown](https://github.com/shotahirama/Markdown "Markdown")  
+\[Markdown](https://github.com/shotahirama/Markdown "Markdown")
+
+()の中に"文字"を入れるとそれがタイトルになる
